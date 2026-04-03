@@ -1,26 +1,23 @@
-LightMode {
-    body {background-color: white;}
-            h1 {
-                color: black;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 200%;
-            }
-            p {
-                color: black;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 100%;
-            }
+body {
+    background-color: white;
 }
-DarkMode {
-    body {background-color: '#202124';}
-            h1 {
-                color: '#F1F3F4';
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 200%;
-            }
-            p {
-                color: '#F1F3F4';
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 100%;
-            }
+h1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+body.dark {
+    background-color: #202124;
+}
+body.dark h1 {
+    color: #F1F3F4;
+}
+body.dark p {
+    color: #F1F3F4;
 }
