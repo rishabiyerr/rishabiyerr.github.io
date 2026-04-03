@@ -1,0 +1,26 @@
+LightMode {
+    body {background-color: white;}
+            h1 {
+                color: black;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 200%;
+            }
+            p {
+                color: black;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 100%;
+            }
+}
+DarkMode {
+    body {background-color: '#202124';}
+            h1 {
+                color: '#F1F3F4';
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 200%;
+            }
+            p {
+                color: '#F1F3F4';
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 100%;
+            }
+}
